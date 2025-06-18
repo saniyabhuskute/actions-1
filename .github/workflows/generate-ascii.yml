@@ -16,3 +16,6 @@ jobs:
           run: |
             chmod +x ascii-script.sh
             ./ascii-script.sh
+            git add ascii-script.sh
+            git commit -m "Add ascii-script.sh file"
+            git push
